@@ -1,0 +1,196 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(img/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+}
+
+header .headerDiv {
+    margin-top: 8%;
+}
+
+.headerDiv .h1 {
+    font-size: 70px;
+}
+@media only screen and (max-width:1300px) {
+    .headerDiv .h1{
+        font-size: 60px;
+        
+    }
+}
+@media only screen and (max-width:1100px) {
+    .headerDiv .h1{
+        font-size: 50px;
+        
+    }
+}
+@media only screen and (max-width:900px) {
+    .headerDiv .h1{
+        font-size: 40px;
+        
+    }
+}
+@media only screen and (max-width:700px) {
+    .headerDiv .h1{
+        font-size: 30px;
+        
+    }
+}
+
+
+
+/* section1 */
+
+.sec1 {
+    padding: 70px;
+}
+
+.sec1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sec1 .colsec1{
+    position: relative;
+}
+
+.sec1 .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.6) ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ;
+}
+.sec1 .colsec1:hover .overlay {
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        border-radius: 10px;
+        padding: 70px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
+
+
+/* section2 */
+
+
+.sec2{
+    margin: 0;
+    padding: 50px;
+    background-color: rgb(248, 252, 255);
+}
+.sec2 .secDiv2{
+    margin-top: 5%;
+}
+.sec2 .h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.sec2 .p1{
+    width: 400px;
+    height: 1px;
+    margin: 40px;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+    left: 130px;
+}
+.sec3 
+.secDiv2 .h3{
+    color: rgb(187, 187, 187);
+}
+
+/* section 3 */
+
+.sec3{
+    margin: 0;
+    padding: 70px;
+}
+.sec3 h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.sec3 .p1{
+    width: 400px;
+    height: 1px;
+    margin: 40px;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+    left: 130px;
+}
+.sec3 .logo  {   
+    width: 90px;  
+    height: 90px; 
+    border-radius: 100%;
+    background-color: rgb(31, 31, 216);
+}
+.sec3 .mainLogo{
+    position: relative;
+    left: 100px;
+}
+.logo ion-icon{
+    width: 50px;
+    padding: 20px 20px;
+    font-size: 40px;
+    color: #ffff;
+}
+
+
+.sec3 span{
+    font-size: 40px;
+}
+
+
+/* section4 */
+
+ .sec4{
+    margin: 20px;
+    padding: 50px;
+ }
+.sec4  img{
+    width: 150px;
+    padding: 20px 20px;
+    border-radius: 100%;
+    
+}
+.sec4 h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    
+}
+.sec4 .p1{
+    width: 400px;
+    height: 1px;
+    margin: 40px;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+    left: 130px;
+}
+/* footer */
+
+footer ion-icon{
+    width: 40px;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+
